@@ -1,0 +1,138 @@
+body {
+	background-color: white;
+	font-family: Arial, sans-serif;
+}
+
+.header{
+	position: relative;
+}
+
+.sitewrapper{
+	width: 94%;
+	margin: 0 auto;
+}
+
+.logoReplace{
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.logoReplace a{
+	background-image: url(../img/mainlogo.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 125px;
+	display: block;
+	text-indent: -9999px;
+}
+.button{
+	display: block;
+	height:40px;
+	width: 140px;
+	line-height: 40px;
+	background-color: #023509;
+	text-align: center;
+	color:white;
+	text-decoration: none;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 20px;
+
+
+}
+.mainImage{
+	background: url(../img/Center_feature_kissinghand.jpg) no-repeat;
+    height:385px;
+    background-size: cover;
+    box-shadow: 0 4px 6px -4px #000;
+    position: relative;
+    z-index: 1;
+}
+.imageText { color: white;
+			font-size: 26px;
+			font-style: oblique;
+			padding: 200px 175px 100px 25px;							
+}
+.youTube{
+
+}
+.secText { 
+	        color: white;
+			font-size: 24px;
+			font-style: oblique;
+			position: absolute;	         									
+}
+.playButton{
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	right: 275px;
+    bottom: -125px;
+  
+
+}
+	@media screen and (min-width: 600px) {
+		.mainnav li {
+		              display: block;
+		              padding: 15px 15px 15px 15px;
+		              border: 0;
+			         }
+	.mainnav {
+		padding-left: 0;
+	}
+	
+	                         
+	.aboutus {  
+		        background-color: #002157;										
+	} 
+	.fatherhood {
+		         background-color: #8c6239;
+	}
+	.resources {
+				background-color: #9e0b0f;
+	}
+	.newstart {
+				background-color: #143e0b;
+	}
+	.news {
+				background-color: #f7b361;
+	}
+	.link {
+		color:white;
+		text-decoration: none;
+		text-align: center;
+		display: block;
+	
+	}   
+	 
+	li {  text-decoration: none;
+		   display: block;
+		   padding: 15px;
+	}                     
+	   
+	      .bynumbers {  font-size: 18px;
+	      				color: red;
+	      				left: 0;
+	      				height:800px;
+	      			
+	      				
+	      			
+	      			
+
+
+
+
+	
+	
+	    
+	}
+
+
+
+
+
+
+		
